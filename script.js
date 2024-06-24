@@ -152,6 +152,33 @@ const questions = [
             { text: "North Korea", correct: false},
         ]
     },
+    {
+        question: "What is the largest country in South America?",
+        answers: [
+            { text: "Argentina", correct: false},
+            { text: "Colombia", correct: false},
+            { text: "Peru", correct: false},
+            { text: "Brazil", correct: true},
+        ]
+    },
+    {
+        question: "Which of these is a soft drink originally created by a pharmacist?",
+        answers: [
+            { text: "Coca-Cola", correct: true},
+            { text: "Pepsi", correct: false},
+            { text: "Sprite", correct: false},
+            { text: "Fanta", correct: false},
+        ]
+    },
+    {
+        question: "What is the chemical element used in pencil lead?",
+        answers: [
+            { text: "Gold", correct: false},
+            { text: "Copper", correct: false},
+            { text: "Silver", correct: false},
+            { text: "Graphite", correct: true},
+        ]
+    },
 ];
 
 const questionElement = document.getElementById("question");
