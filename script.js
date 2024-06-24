@@ -103,8 +103,8 @@ const questions = [
         answers: [
             { text: "Red", correct: false},
             { text: "Yellow", correct: false},
-            { text: "Blue", correct: true},
-            { text: "Green", correct: false},
+            { text: "Blue", correct: false},
+            { text: "Green", correct: true},
         ]
     },
     {
