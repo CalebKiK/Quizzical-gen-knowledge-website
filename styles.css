@@ -57,6 +57,7 @@ body{
     width: 150px;
     padding: 5px;
     background: rgb(67, 58, 34);
+    align-items: center;
     color: aliceblue;
     font-size: 16px;
     margin-left: 200px;
@@ -78,4 +79,51 @@ body{
 
 .incorrect{
     background-color: rgb(247, 193, 193);
+}
+
+@media (max-width: 450px){
+    *{
+        padding: 0;
+        margin: 10px;
+        box-sizing: border-box;
+        font-family: Outfit;
+    }
+
+    .app{
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .app h1{
+        border-bottom: 1px solid;
+    }
+
+    .quiz h2{
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .btn{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 13px;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+
+    #next-btn{
+        width: 100px;
+        background: rgb(67, 58, 34);
+        align-items: center;
+        font-size: 16px;
+        margin-left: 100px;
+        border: 2px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;
+    }
+
 }
